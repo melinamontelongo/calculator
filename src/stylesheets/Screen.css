@@ -1,0 +1,26 @@
+.input{
+    height: 60px;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    background: #160c11a9;
+    color: #ffdde1;
+    padding: 11px;
+    padding-right: 30px;
+    margin: 1px solid grey;
+    box-shadow: inset -5px 5px #3d3235;
+    border-bottom: 2px solid #f9f5ff;
+    border-left: 2px solid #f9f5ff;
+    overflow: hidden;
+}
+@media (max-width: 576px){
+    .input{
+      height: 55px;
+      font-size: 1rem;
+    }
+  }

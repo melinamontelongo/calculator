@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Silkscreen&display=swap');
+.btn-container{
+    height: 63px;
+    flex: 1 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: bold;
+    font-size: 1.5rem;
+    background-color: #ffdde1;
+    color: #665358;
+    border-radius: 25px;
+    border: 2px solid #665358;
+    margin: 4px;
+    box-shadow: -4px 4px #3d3235;
+    cursor: pointer;
+    user-select: none;
+    transition: 0.3s;
+}
+@media (max-width: 576px){
+    .btn-container{
+      height: 55px;
+      font-size: 1.2rem;
+    }
+  }
+.btn-container:hover{
+    color: #ffdde1;
+    background-color: #665358;
+}
+
+.btn-container:active{
+    box-shadow: inset -4px 4px #3d3235;
+}
+
+.operator {
+    background-color: #ee9ca7;
+}
+
+.operator:hover {
+    color: #ee9ca7;
+    background-color: #665358;
+}
