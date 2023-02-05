@@ -1,8 +1,9 @@
 .input{
-    height: 60px;
+    height: 65px;
     border-radius: 50px;
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin: 1px solid grey;
+    margin-top: 10px!important;
+    margin-bottom: 20px!important;
     display:flex;
     justify-content: flex-end;
     align-items: center;
@@ -12,7 +13,6 @@
     color: #ffdde1;
     padding: 11px;
     padding-right: 30px;
-    margin: 1px solid grey;
     box-shadow: inset -5px 5px #3d3235;
     border-bottom: 2px solid #f9f5ff;
     border-left: 2px solid #f9f5ff;
